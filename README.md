@@ -47,3 +47,7 @@ To verify the output obtained with P4Chaskey a test program is provided where a 
 To compile the test program use the following command: `gcc -o chaskey chaskey.c`
 
 To run the test program for the input `9cf8c676bbef37aa0daa2f3332ae506a` and key `fe9db95c4d8c84b4a03eeaec729a1a25` use the following command: `./chaskey.c 9cf8c676bbef37aa0daa2f3332ae506a fe9db95c4d8c84b4a03eeaec729a1a25`
+
+If you are referring to P4Chaskey in a published work, please cite the following paper, not just this github repository. Thank you!
+
+Martim Francisco, Bernardo Ferreira, Fernando M. V. Ramos, Eduard Marin, Salvatore Signorello "P4Chaskey: An Efficient MAC Algorithm for PISA Switches", proceedings of the IEEE Internation Conference on Network Protocols, Oct 2024, Charleroi, Belgium.
